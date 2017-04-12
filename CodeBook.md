@@ -37,44 +37,44 @@ The captured signals were pre-processed by applying noise filters and then sampl
 * The time domain signals were captured at a constant rate of 50 Hz, prefix 't' denotes time
 * The signals were then filtered to remove noise
 * The accelaration signal was separated into body and gravity acceleration signals:
-** tBodyAcc-XYZ
-** tGravityAcc-XYZ
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
 * Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals:
-** tBodyAccJerk-XYZ
-** tBodyGyroJerk-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyroJerk-XYZ
 * Next, the magnitude of these three-dimensional signals were calculated using the Euclidean form:
-** tBodyAccMag
-** tGravityAccMag
-** tBodyAccJerkMag
-** tBodyGyroMag
-** tBodyGyroJerkMag
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
 * Finally a Fast Fourier Transform (FFT) was applied to some of these signals, prefix 'f' indicates frequency domain signals:
-** fBodyAcc-XYZ
-** fBodyAccJerk-XYZ
-** fBodyGyro-XYZ
-** fBodyAccJerkMag
-** fBodyGyroMag
-** fBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 That leaves us with the following set of signals, suffix '-XYZ' denotes three-axial signals in the X, Y and Z directions:
 
-** tBodyAcc-XYZ
-** tGravityAcc-XYZ
-** tBodyAccJerk-XYZ
-** tBodyGyro-XYZ
-** tBodyGyroJerk-XYZ
-** tBodyAccMag
-** tGravityAccMag
-** tBodyAccJerkMag
-** tBodyGyroMag
-** tBodyGyroJerkMag
-** fBodyAcc-XYZ
-** fBodyAccJerk-XYZ
-** fBodyGyro-XYZ
-** fBodyAccMag
-** fBodyAccJerkMag
-** fBodyGyroMag
-** fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The features were further combined with a variety of estimated variables, such as mean value, standard deviation, largest and smallest value in the set etc. This adds up to over 550 of different indicators in total. The file 'features.txt' lists all of the variables.
 
